@@ -1,3 +1,31 @@
-.carousel .current {
-    display: block;
+:root {
+    font-family: 'Nunito', sans-serif;
+    --main-color: #2b1911;
+    --accent-color: white;
+    scroll-behavior: smooth;
+}
+
+.servis {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.new-posluga {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+}
+
+.backgroundfront {
+    background-image: url(../img/kartel_logo1.doG6f.png);
+}
+
+.carousel {
+    max-width: 640;
 }

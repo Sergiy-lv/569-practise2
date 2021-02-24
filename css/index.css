@@ -1,11 +1,31 @@
-    html {
-        background: url(../img/kartel_logo1.doG6f.png) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    
-    .car {
-        height: 70vh;
-    }
+                    html {
+                        background: url(../img/Kartel_logo1.jpg) no-repeat center center fixed;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+                    
+                    .car {
+                        height: 70vh;
+                    }
+                    
+                    .carousel-inner {
+                        width: 450px;
+                        max-height: 600px;
+                        overflow: hidden;
+                        line-height: 200px;
+                        text-align: center;
+                    }
+                    
+                    .inst {
+                        width: 32px;
+                        max-height: 32px;
+                    }
+                    
+                    .btn-banner-more-info {
+                        color: #fff;
+                        background-color: black;
+                        border-color: silver;
+                        border-radius: 12px;
+                    }

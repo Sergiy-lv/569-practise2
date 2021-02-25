@@ -7,6 +7,13 @@
     <title>Kartel</title>
     <link href="css/index.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Fugaz+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="bg-transparent text-white">
@@ -30,13 +37,17 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#ourcustomers">Наші клієнти</a>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contacts">Контакти</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.instagram.com/kartel_lviv/">
-                                    <img class="inst" src="img/instagram.png" alt="instagram"></a>
-                            </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/kartel_lviv/">
+                                <img class="inst" src="img/instagram.png" alt="instagram"></a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -67,12 +78,14 @@
                     <div class="card h-75 border-0 bg-transparent ">
                         <img src="img/Наші послуги/maintenance.jpg" class="rounded float-start " alt="Технічне обслуговування ">
                         <div class="card-body ">
-                            <h1 id="maintenance " class="card-title ">Технічне обслуговування</h1>
-                            <p class="card-text ">Наша команда складається з крутих професіоналів як працюють як на якість так і на своість</p>
+                            <h1 id="maintenance " class="card-title ">Техогляд</h1>
+                            <p class="card-text ">Наша команда складається з крутих професіоналів як працюють як на якість так і на совість </p>
                         </div>
                         <div class="card-footer ">
                             <div class="buttons ">
-                                <button type="button" class="btn-banner-more-info">Більше інформації</button>
+                                <button type="button" class="btn-banner-more-info">
+                                    <a href="more.html">Більше інформації</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -82,7 +95,7 @@
                         <img class="smaller-image img-responsive " src="img/Наші послуги/exhaust systems.jpg" alt="Вихлопні системи ">
                         <div class="card-body ">
                             <h1 id="exhaustsystems" class="card-title ">Вихлопні системи</h1>
-                            <p class="card-text">Ми воготовляємо індивідуальні системи вихдопу для вашого авто</p>
+                            <p class="card-text">Ми воготовляємо індивідуальні системи вихдопу для вашого авто а також виготовляємо екслюзивні Downpipe </p>
                         </div>
                         <div class="card-footer ">
                             <div class="buttons ">
@@ -96,7 +109,7 @@
                         <img src="img/Наші послуги/ourpartners.jpg" class="card-img-top " alt="Наші партнери ">
                         <div class="card-body ">
                             <h1 id="ourpartners " class="card-title ">Наші партнери</h1>
-                            <p class="card-text ">Чого ж тобе невирівнює</p>
+                            <p class="card-text ">Ми є сертифікованими представниками таких брендів як Motul та виробників вихлопних систем ATM</p>
                         </div>
                         <div class="card-footer ">
                             <div class="buttons ">
@@ -199,6 +212,23 @@
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js " integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 " crossorigin="anonymous "></script>
         <script src="js/index.js "></script>
+        <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

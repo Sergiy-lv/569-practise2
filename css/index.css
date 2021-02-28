@@ -1,53 +1,61 @@
-                                                    html {
-                                                        background: url(../img/Kartel_logo1.jpg) no-repeat center center fixed;
-                                                        -webkit-background-size: cover;
-                                                        -moz-background-size: cover;
-                                                        -o-background-size: cover;
-                                                        background-size: cover;
-                                                    }
-                                                    
-                                                    .navbar-brand {
-                                                        font-family: 'Fugaz One', cursive;
-                                                    }
-                                                    
-                                                    .fs-1 {
-                                                        font-family: 'Fugaz One', cursive;
-                                                    }
-                                                    
-                                                    .card-body {
-                                                        font-family: 'Courier Prime', monospace;
-                                                    }
-                                                    
-                                                    .car {
-                                                        height: 70vh;
-                                                    }
-                                                    
-                                                    .carousel-inner {
-                                                        width: 450px;
-                                                        max-height: 600px;
-                                                        overflow: hidden;
-                                                        line-height: 200px;
-                                                        text-align: center;
-                                                    }
-                                                    
-                                                    .inst {
-                                                        width: 16px;
-                                                        max-height: 16px;
-                                                    }
-                                                    
-                                                    .btn-banner-more-info {
-                                                        color: #fff;
-                                                        background-color: black;
-                                                        border-color: silver;
-                                                        border-radius: 12px;
-                                                    }
-                                                    
-                                                    .order {
-                                                        width: 16px;
-                                                        max-height: 16px;
-                                                        margin: auto;
-                                                    }
-                                                    
-                                                    .navbar {
-                                                        position: fixed;
-                                                    }
+                                                         html {
+                                                             background: url(/img/kartel_logo.jpg) no-repeat center center fixed;
+                                                             -webkit-background-size: cover;
+                                                             -moz-background-size: cover;
+                                                             -o-background-size: cover;
+                                                             background-size: cover;
+                                                         }
+                                                         
+                                                         .navbar-brand {
+                                                             font-family: 'Fugaz One', cursive;
+                                                         }
+                                                         
+                                                         .fs-1 {
+                                                             font-family: 'Fugaz One', cursive;
+                                                         }
+                                                         
+                                                         .card-body {
+                                                             font-family: 'Courier Prime', monospace;
+                                                         }
+                                                         
+                                                         .car {
+                                                             height: 70vh;
+                                                         }
+                                                         
+                                                         .carousel-inner {
+                                                             width: 450px;
+                                                             max-height: 600px;
+                                                             overflow: hidden;
+                                                             line-height: 200px;
+                                                             text-align: center;
+                                                         }
+                                                         
+                                                         .inst {
+                                                             width: 32px;
+                                                             max-height: 32px;
+                                                         }
+                                                         
+                                                         .btn-banner-more-info {
+                                                             color: #fff;
+                                                             background-color: black;
+                                                             border-color: silver;
+                                                             border-radius: 12px;
+                                                         }
+                                                         
+                                                         .navbar {
+                                                             position: fixed;
+                                                         }
+                                                         
+                                                         .video {
+                                                             max-width: 560px;
+                                                             max-height: 315px;
+                                                             align-content: center;
+                                                         }
+                                                         
+                                                         .but {
+                                                             text-align: center;
+                                                             text-emphasis: none;
+                                                             background: black;
+                                                             color: white;
+                                                             margin-bottom: auto;
+                                                         }

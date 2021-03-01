@@ -1,5 +1,5 @@
  html {
-     background: url(../img/Kartel_logo1.jpg) no-repeat center center fixed;
+     background: url(img/Kartel_logo1.jpg) no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -9,5 +9,4 @@
  .cen {
      color: white;
      text-align: center;
-     tex
  }
